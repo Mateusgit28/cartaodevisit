@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: grey;
+}
+
+.formulario{
+    background: white;
+    width: 600px;
+    margin: 20px auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+.coluna{
+    width: 50%;
+}
+.linha{
+    display: flex;
+}
+label{
+    display: block;
+    padding-bottom: 5px;
+    padding-top: 8px;
+}
+.email{
+    padding-bottom: 10px;
+}
+.btm{
+    width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: grey;
+    color: white;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    
+}

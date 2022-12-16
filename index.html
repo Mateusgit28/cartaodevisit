@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <div class="formulario">
+        <h1 class="h1">Cartão de Visitas</h1>
+        <p class="p">Preencha os dados abaixo para criar seu cartão de visitas virtual</p>
+
+        <div class="linha">
+            <div class="coluna">
+                <label  for="">Nome</label>
+                <input id="nome" type="text">
+            </div>
+            <div class="coluna">
+                <label  for="">Sobrenome</label>
+                <input id="sobrenome" type="text">
+            </div>
+        </div>
+        <div class="linha">
+            <div class="coluna">
+                <label  for="">Telefone</label>
+                <input id="telefone" type="text">
+            </div>
+            <div>
+                <label  for="">Profissão</label>
+                <input id="profissao" type="text">
+            </div>
+            
+        </div>
+        <div>
+            <div class="email">
+                <label  for="">E-mail</label>
+                <input id="email" type="text"name="sintomas" size="40" maxlength="50"/>
+            </div>
+        </div>
+        <button class="btm" type="button" onclick="cartao()">CRIAR CARTÃO</button>
+        
+
+    </div>
+
+    <div class="formulario">
+        <h1 id="nomecartao">Mateus</h1>
+        <p id="profissaocartao">Desenvolvedor</p>
+        <p id="telefonecartao">(19) 991810667</p>
+        <p id="emailcartao">mateus.28@gmail.com</p>
+        
+    </div>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
